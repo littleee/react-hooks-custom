@@ -1,12 +1,10 @@
 import typescript from '@rollup/plugin-typescript';
 import pkg from './package.json';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 export default {
   input: './src/index.tsx',
-  // output: {
-  //   file: 'dist/index.js',
-  //   format: 'cjs'
-  // },
   output: [
   {
     format: 'cjs',
@@ -17,5 +15,14 @@ export default {
     file: pkg['module']
   }
 ],
-  plugins: [typescript()]
+  plugins: [
+    typescript(),
+    commonjs(),
+    resolve({
+      // 将自定义选项传递给解析插件
+      customResolveOptions: {
+        moduleDirectory: 'node_modules'
+      }
+    })],
+  external: ['react', 'react-dom'],
 }
