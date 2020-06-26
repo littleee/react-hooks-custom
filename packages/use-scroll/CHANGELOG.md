@@ -1,4 +1,4 @@
-# @react-hooks-custom/useScroll ChangeLog
+# @react-hooks-custom/use-scroll ChangeLog
 
 ## 1.0.0
 
