@@ -1,5 +1,5 @@
 {
-  "name": "@react-hooks-custom/useScroll",
+  "name": "@react-hooks-custom/use-scroll",
   "version": "1.0.0",
   "description": "Get scrolling value quickly by React hook",
   "main": "./dist/cjs/index.js",

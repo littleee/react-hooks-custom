@@ -56,9 +56,9 @@
   integrity sha512-iaIVzr+w2ZJ5HkidlZ3EJM8VTZb2MJLCjw3V+505yVts0gRC4UMvjw0d1HPtGqI/HQC/KdsYtayfzl+AXY2R8g==
 
 "@types/node@*":
-  version "14.0.13"
-  resolved "http://192.168.1.3:4873/@types%2fnode/-/node-14.0.13.tgz#ee1128e881b874c371374c1f72201893616417c9"
-  integrity sha1-7hEo6IG4dMNxN0wfciAYk2FkF8k=
+  version "14.0.14"
+  resolved "http://192.168.1.3:4873/@types%2fnode/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
+  integrity sha1-JKC1lZ8WrBQa6wxbPNehW3xky84=
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -73,9 +73,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.9.38":
-  version "16.9.38"
-  resolved "http://192.168.1.3:4873/@types%2freact/-/react-16.9.38.tgz#868405dace93a4095d3e054f4c4a1de7a1ac0680"
-  integrity sha1-hoQF2s6TpAldPgVPTEod56GsBoA=
+  version "16.9.41"
+  resolved "http://192.168.1.3:4873/@types%2freact/-/react-16.9.41.tgz#925137ee4d2ff406a0ecf29e8e9237390844002e"
+  integrity sha1-klE37k0v9Aag7PKejpI3OQhEAC4=
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
