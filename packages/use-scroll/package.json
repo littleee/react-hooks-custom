@@ -29,7 +29,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "pub": "npm run build && npm publish --access=public"
   },
   "dependencies": {},
   "devDependencies": {
