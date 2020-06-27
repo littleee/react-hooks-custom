@@ -1,7 +1,7 @@
 <hr>
 <div align="center">
   <h1 align="center">
-    useScrollPosition()
+    useScroll()
   </h1>
 </div>
 
