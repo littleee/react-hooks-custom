@@ -7,6 +7,26 @@
   "repository": "https://github.com/littleee/react-hooks-custom",
   "author": "BC Lau <littleee.Lau@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react hook",
+    "hook",
+    "react hooks",
+    "hooks",
+    "window scroll",
+    "window scroll hook",
+    "scroll position",
+    "viewport",
+    "viewport scroll",
+    "viewport scroll hook",
+    "usewindowscroll",
+    "use window scroll",
+    "react window scroll hook",
+    "react scroll position hook",
+    "usescrollposition",
+    "use scroll position",
+    "scroll position hook"
+  ],
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw"
